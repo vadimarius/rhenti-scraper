@@ -18,12 +18,20 @@ A Python scraper for extracting rental property data from [mynd.rhenti.com](http
 ## 🛠️ Technologies:
 - Python 3
 - Requests
-- CSV module
-- Random/Time (for rate limiting)
+- CSV module (built-in)
+- Random/Time (built-in, for rate limiting)
 
 ## 🚀 How to Run:
-1. Install Python 3.
-2. Clone the repository.
-3. Run the script:
+1. Install **Python 3**.  
+2. Clone the repository:  
 ```bash
+git clone https://github.com/vadimarius/rhenti-scraper.git
+cd rhenti-scraper
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the script:
 python main.py
+
+Data will be saved to rentals_usa.csv.
