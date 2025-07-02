@@ -28,10 +28,10 @@ A Python scraper for extracting rental property data from [mynd.rhenti.com](http
 git clone https://github.com/vadimarius/rhenti-scraper.git
 cd rhenti-scraper
 
-Install dependencies:
+#Install dependencies:
 pip install -r requirements.txt
 
-Run the script:
+#Run the script:
 python main.py
 
-Data will be saved to rentals_usa.csv.
+#Data will be saved to rentals_usa.csv.
